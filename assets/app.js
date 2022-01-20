@@ -9,7 +9,11 @@
 import './styles/app.scss';
 import './styles/global.scss';
 import './styles/user.scss';
+import './styles/_comment.scss';
+
+
 
 // start the Stimulus application
 import './bootstrap';
 window.bootstrap = require('bootstrap');
+

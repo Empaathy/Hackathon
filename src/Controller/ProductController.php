@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Comment;
 use App\Entity\Product;
 use App\Repository\ProductRepository;
 use Symfony\Component\HttpFoundation\Response;
@@ -29,11 +30,12 @@ class ProductController extends AbstractController
      */
     public function show(Product $product): Response
     {
+        $this->addFlash('success', 'Félicitations vous venez de Gagnez 5 points de fidélité!');
+
         return $this->render(
             'product/show.html.twig',
             [
                 'product' => $product,
-            ]
-        );
+            ]);
     }
 }
