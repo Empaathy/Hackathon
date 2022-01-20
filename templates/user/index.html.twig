@@ -1,4 +1,37 @@
 {% extends 'base.html.twig' %}
 {% block body %}
+    <section class="profile-header d-flex justify-content-evenly mx-3">
+        <img src="{{ asset('build/images/avatar1.png') }}" class="profile-avatar" alt="logo">
+        <div class="profile-header-right">
+            <h3 class="profile-level mt-2">NIVEAU 12</h3>
+            <h4 class="profile-experience mt-3">122 POINTS D'EXPERIENCE</h4>
+            <h4 class="profile-fidelity mt-3">1550 POINTS DE FIDELITE</h4>
+        </div>
+    </section>
+    <section class="profile-middle">
+        <div class="d-flex justify-content-evenly align-items-center mx-3 my-3">
+            <p class="profile-information-title mb-0">LIVE CHAT</p>
+            <div class="profile-information d-flex align-items-center">
+                <p class="mb-0 px-4 py-1">100 personnes aidées</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-evenly align-items-center mx-3 my-3">
+            <p class="profile-information-title mb-0">PARRAINAGE</p>
+            <div class="profile-information d-flex align-items-center">
+                <p class="mb-0 px-4 py-1">45 filleuils</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-evenly align-items-center mx-3 my-3">
+            <p class="profile-information-title mb-0">AVIS PARTAGES</p>
+            <div class="profile-information d-flex align-items-center">
+                <p class="mb-0 px-4 py-1">125 avis donnés</p>
+            </div>
+        </div>
+    </section>
+    <section class="profile-bottom d-flex flex-column justify-content-between align-items-center">
+        <a href="" class="profile-link my-2">Lien de parrainage</a>
+        <a href="" class="profile-link my-2">Convertir mes points</a>
+        <a href="" class="profile-link my-2">Faire tourner la roulette</a>
+    </section>
 {% endblock %}
 

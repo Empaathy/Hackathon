@@ -1,0 +1,100 @@
+.full-top {
+  background-color: white;
+}
+
+.mano-logo{
+  height: 50px;
+}
+
+.identify{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #1e3c87;
+}
+
+.cart{
+  margin-right: 10px;
+}
+
+.identify {
+  margin-right: 10px;
+  border: none;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.profile-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgb(0 0 0 / 8%);
+}
+
+.profile-avatar{
+  height: 110px;
+}
+
+.profile-level {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #0c193a;
+}
+
+.profile-experience{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #505971;
+}
+
+.profile-fidelity{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #505971;
+}
+
+.profile-information {
+  background-color: white;
+  width: 250px;
+  box-shadow: 0 2px 6px 0 rgb(0 0 0 / 8%);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #505971;
+}
+
+.profile-information-title {
+  width: 200px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #0c193a;
+}
+
+.profile-middle {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.profile-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 32px;
+  background-color: #0c193a;
+  color: #fff;
+  width: 250px;
+  height: 32px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.profile-bottom {
+  height: 15vh;
+  margin-top: 60px;
+}
