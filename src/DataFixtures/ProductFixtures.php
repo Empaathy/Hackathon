@@ -6,6 +6,7 @@ use App\Entity\Product;
 use Faker\Factory;
 use Doctrine\Persistence\ObjectManager;
 use Doctrine\Bundle\FixturesBundle\Fixture;
+use Symfony\Component\BrowserKit\Response;
 
 class ProductFixtures extends Fixture
 {
