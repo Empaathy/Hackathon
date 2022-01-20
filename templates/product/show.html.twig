@@ -1,0 +1,14 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+	ManoMano -
+	{{ product.name }}
+{% endblock %}
+
+{% block body %}
+	{{ product.name }}
+	{{ product.price }}
+	{{ product.description }}
+	{{ product.poster }}
+	{# {{ product.comments }} #}
+{% endblock %}
