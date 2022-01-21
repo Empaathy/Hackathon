@@ -30,6 +30,11 @@
 				<textarea cols="30" placeholder="Describe your experience..."></textarea>
 			</div>
 			<div class="btn">
+				{% for message in app.flashes('success') %}
+					<div class="alert alert-success">
+						{{ message }}
+					</div>
+				{% endfor %}
 				<button type="submit">Post</button>
 			</div>
 		</form>
